@@ -41,54 +41,62 @@ public class Stone : MonoBehaviour
     {
         if (xName == "Iron")
         {
-            xTypeCell = "Standard";
-            xHealth = 30;
-            xMovementHorizontal = 1;
-            xMovementVertical = 1;
+            xTypeCell = "Guardian";
+            xHealth = 50;
+            xMovementHorizontal = 2;
+            xMovementVertical = 3;
         }
 
-        else if (xName == "Silver")
+        else if (xName == "Aquamarine")
         {
-            xTypeCell = "Standard";
-            xHealth = 10;
-            xAttackPower = 4;
-            xMovementDiagonal = 1;
-        }
-
-        else if (xName == "Gold")
-        {
-            xTypeCell = "Standard";
-            xHealth = 6;
-            xScorePerTurn = 10;
-            xScoreExponentialGrowth = true;
-            xMovementHorizontal = 1;
-            xCanMoveOnlyForward = true;
-            xCanMoveFromThrone = false;
-        }
-
-        else if (xName == "Copper")
-        {
-            xTypeCell = "Standard";
+            xTypeCell = "Luxury";
             xHealth = 5;
             xMovementHorizontal = 2;
             xMovementVertical = 2;
-            xSimpleMergePossible = true;
-            xMergeMultiplier = 3;
+            xScorePerTurn = 30;
         }
 
-        else if (xName == "Platinum")
+        else if (xName == "Jadeite")
         {
-            xTypeCell = "Standard";
-            xHealth = 1;
-            xMovementHorizontal = 3;
-            xMovementVertical = 3;
+            xTypeCell = "Luxury";
+            xMovementHorizontal = 2;
+            xMovementVertical = 1;
+            xHealth = 15;
+            xScorePerTurn = 20;
+            xMergeMultiplier = 3;
+            xSimpleMergePossible = true;
+
+        }
+
+        else if (xName == "Opal")
+        {
+            xTypeCell = "Luxury";
+            xMovementHorizontal = 1;
+            xCanMoveFromThrone = false;
+            xCanMoveOnlyForward = true;
+            xScorePerTurn = 10;
+            xScoreExponentialGrowth = true;
+
+        }
+
+        else if (xName == "Adrovay")
+        {
+            xTypeCell = "Punisher";
+            xHealth = 25;
+            xMovementHorizontal = 2;
+            xMovementVertical = 2;
+            xMovementDiagonal = 2;
+            xAttackPower = 5;
             xThroneExplosion = true;
             xThroneExplosionSteal = 50;
         }
 
-        else if(xName == "Bakt")
+        else if(xName == "Amethyst")
         {
-            xTypeCell = "Mythical";
+            xTypeCell = "Punisher";
+            xMovementDiagonal = 1;
+            xAttackPower = 100;
+            xHealth = 5;
         }
 
     }

@@ -76,10 +76,12 @@
     <Compile Include="Assets\Scripts\MixerManager.cs" />
     <Compile Include="Assets\Scripts\MovementManager.cs" />
     <Compile Include="Assets\Scripts\MusicClass.cs" />
+    <Compile Include="Assets\Scripts\Splash\SplashManager.cs" />
     <Compile Include="Assets\Scripts\Stone.cs" />
     <Compile Include="Assets\Scripts\StoneDatabase.cs" />
     <Compile Include="Assets\Scripts\StoneManager.cs" />
     <Compile Include="Assets\Scripts\ToolBox.cs" />
+    <Compile Include="Assets\Scripts\Zoomer.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

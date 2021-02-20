@@ -41,15 +41,15 @@ public class StoneDatabase : MonoBehaviour
         {
             if (stone.xName == "Iron")
             {
-                stone.xHealth = 30;
+                stone.xHealth += 50;
             }
 
-            else if (stone.xName == "Silver")
+            else if (stone.xName == "Aquamarine")
             {
-                stone.xMovementDiagonal = 3;
+                stone.xMovementDiagonal = 2;
             }
 
-            else if (stone.xName == "Copper")
+            else if (stone.xName == "Jadeite")
             {
                 if (playerAturn)
                 {
@@ -63,10 +63,16 @@ public class StoneDatabase : MonoBehaviour
                 }
             }
 
-            else if (stone.xName == "Platinum")
+            else if (stone.xName == "Adrovay")
             {
-                stone.xScorePerTurn = 50;
+                stone.xMovementDiagonal = 3;
+                stone.xMovementHorizontal = 3;
+                stone.xMovementVertical = 3;
+            }
 
+            else if (stone.xName == "Amethyst")
+            {
+                stone.xHealth = 25;
             }
         }
 

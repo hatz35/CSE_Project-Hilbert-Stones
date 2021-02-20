@@ -370,70 +370,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stonedb:
-  - xName: Gold
-    xLore: Gold is a precious metal that is associated with wealth, grandeur, and
-      prosperity, as well as sparkle, glitz, and glamour.
-    xGuide: 'Health - 6
-
-
-      Score - 10*n per turn (where n is the number of turns
-      it has stayed on the Throne Squares)
-
-
-      Movement - This stone can only
-      move one square forward per turn. Also, it can''t move at once it reaches the
-      Throne.
+  - xName: Amethyst
+    xLore: 'Often viewed as a stone of peace, some believe amethyst''s calming presence
+      produces soothing dreams by bringing the dreamer more in tune with the Divine.
+      This clarity and peacefulness also extends to the waking mind. '
+    xGuide: "Movement \u2013 Diagonal (1)\r\nStats \u2013 Health (5)  \r\nAbilities
+      \u2013 Damage (50)\r\nBoost \u2013 Health + 25 "
+    xStoneImage: {fileID: 21300000, guid: 4e2c489ca7100694eb0dffc5a5fe72b9, type: 3}
+  - xName: 'Jadeite '
+    xLore: "Chinese culture considers jade to be a lucky stone. To them, it is known
+      as \u201CThe Stone of Heaven.\u201D Jadeite is so precious that there is a
+      saying that goes, \u201Cgold is valuable while jade is priceless."
+    xGuide: "Movement \u2013 Horizontal (2), Vertical (1)\r\nStats \u2013 Health
+      (15)\r\nAbilities \u2013 Score Per Turn (20) \r\nSpecial \u2013 Merge with
+      another copy and gain 3x Health\r\nBoost \u2013 Spawn Extra Jadeite Stones "
+    xStoneImage: {fileID: 21300000, guid: dec76d00554728746b1690fa906affbf, type: 3}
+  - xName: Adrovay
+    xLore: 'Fear this stone. That is all.
 
 '
-    xStoneImage: {fileID: 21300000, guid: 6676dad62dff78c4190ec942b0413937, type: 3}
+    xGuide: "Movement \u2013 Horizontal (2) Vertical (2) Diagonal (2)\r\nStats \u2013
+      Health (25)  \r\nAbilities \u2013 Damage (5)\r\nSpecial \u2013 They can explode
+      in the throne to deduct 50 Score Points \r\nBoost \u2013 Horizontal (3) Vertical
+      (3) Diagonal (3)"
+    xStoneImage: {fileID: 21300000, guid: 4affb7f924ebd8c4895dbb2c896c9195, type: 3}
+  - xName: Opal
+    xLore: Opal has always been associated with love and passion, as well as desire
+      and eroticism. It is a seductive stone that intensifies emotional states and
+      releases inhibitions.
+    xGuide: "Movement \u2013 Horizontal (1) *Can Only Move Forward *Can't leave Throne\r\nStats
+      \u2013 Health (10)\r\nAbilities \u2013 Score Per Turn (10) \r\nSpecial \u2013
+      Continuing to stay in the throne will result in Score per turn growth "
+    xStoneImage: {fileID: 21300000, guid: 2e4c132e0108b2f48997e7a4727d8bf3, type: 3}
+  - xName: Aquamarine
+    xLore: "The meaning of the Aquamarine stone is based heavily on its namesake
+      \u2013 the sea. Everything that the endless blue ocean represents is included
+      in the meaning of this stone. It represents exhilaration as well as relaxing
+      calm."
+    xGuide: "Movement \u2013 Horizontal (2) Vertical (2)\r\nStats \u2013 Health (5)\r\nAbilities
+      \u2013 Score Per Turn (30)\r\nBoost \u2013 Gains Diagonal Movement (2) "
+    xStoneImage: {fileID: 21300000, guid: a70879560881e064ab90bb3325205d5d, type: 3}
   - xName: Iron
     xLore: Iron, classically known as the Metal of Mars, has been universally perceived
       as the symbol of human strength, obstinacy, fortitude, honor, courage, sharpness
       (of body and mind), tenacity, and confidence in power.
-    xGuide: 'Health - 30
-
-
-      Movement - This stone can only move one square vertically
-      or horizontally per turn.
-
-
-      Boost - Health Recovers. '
+    xGuide: "Movement \u2013 Horizontal (2) Vertical (3)\r\nStats \u2013 Health (50)\r\nBoost
+      \u2013 Health + 50"
     xStoneImage: {fileID: 21300000, guid: 85d0761ce6f690b42afdcde0cfed7dfc, type: 3}
-  - xName: Copper
-    xLore: Copper is believed to be a metal that heals and is associated with ideas
-      of universal life. It inspires creativity and capability of enjoying life.
-      It inspires kindness, caring for others and motherly, protective spirit.
-    xGuide: "Health - 5 \r\n\nMovement - This stone can move two squares \nvertically
-      or horizontally per turn.\r\n\nBoost - You get the ability to create another
-      allied Copper stone and place it anywhere.\r\n\nSpecial - Two Copper Stones
-      can combine. Their Combined Health becomes three times the sum of their current
-      Health.  "
-    xStoneImage: {fileID: 21300000, guid: feaea3d3c68d04849a1ee23dc2eda047, type: 3}
-  - xName: Silver
-    xLore: Silver is a precious metal and often symbolizes riches and wealth. Silver
-      is believed to be a mirror to the soul, helping us to see ourselves as others
-      see us. As a gemstone silver represents hope, unconditional love, meditation,
-      mystic visions, tenderness, kindness, sensitivities, and psychic abilities.
-    xGuide: 'Attack - 3 per turn
-
-
-      Health - 10
-
-
-      Movement - This stone
-      can only move one square diagonally in any direction per turn.
-
-
-      Boost
-      - Movement Enhancement. It would be able to move 3 squares diagonally. '
-    xStoneImage: {fileID: 21300000, guid: c1e971c2de514f849a1036caaaf23a42, type: 3}
-  - xName: Platinum
-    xLore: Platinum is a symbol of true love, purity, rarity and strength. These
-      qualities of platinum are equivalent to the ideals of eternal true love.
-    xGuide: "Health - 1\r\n\nMovement - This stone can move three squares vertically
-      or horizontally per turn.\r\n\nBoost - Score becomes 50 per turn \r\n\nSpecial
-      - Explode your own stone in the Throne to steal 50 points of your enemy "
-    xStoneImage: {fileID: 21300000, guid: 38a8c1356fb70cb4aa83e30247188801, type: 3}
   LoreSlot: {fileID: 1182045405}
   GuideSlot: {fileID: 961841469}
   indexSlot: {fileID: 2035621528}
@@ -1944,7 +1927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &652054410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3058,7 +3041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &778827845
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3933,7 +3916,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_textAlignment: 257
+  m_textAlignment: 258
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -4724,7 +4707,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_textAlignment: 257
+  m_textAlignment: 258
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -4958,7 +4941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1230948989
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5329,7 +5312,7 @@ PrefabInstance:
     - target: {fileID: 3280680799234609800, guid: 1d9ac070519b5984fa30217a19461fe1,
         type: 3}
       propertyPath: m_Volume
-      value: 0.042
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 3280680799234609805, guid: 1d9ac070519b5984fa30217a19461fe1,
         type: 3}
@@ -5339,7 +5322,12 @@ PrefabInstance:
     - target: {fileID: 3280680799234609806, guid: 1d9ac070519b5984fa30217a19461fe1,
         type: 3}
       propertyPath: Priority
-      value: 53
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3280680799234609806, guid: 1d9ac070519b5984fa30217a19461fe1,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.485
       objectReference: {fileID: 0}
     - target: {fileID: 3280680799234609807, guid: 1d9ac070519b5984fa30217a19461fe1,
         type: 3}
@@ -6922,7 +6910,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865037453}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -7140,7 +7128,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

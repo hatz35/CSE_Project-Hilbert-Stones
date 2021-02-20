@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -160,6 +160,7 @@ public class StoneManager : MonoBehaviour
             BoxCollider2D BC = stone.GetComponent<BoxCollider2D>();
             BC.enabled = false;
 
+
         }
     }
 
@@ -169,8 +170,10 @@ public class StoneManager : MonoBehaviour
         {
             BoxCollider2D BC = stone.GetComponent<BoxCollider2D>();
             BC.enabled = true;
+
         }
     }
+
 
     public void AddingStone(GameObject StoneToAdd)
     {
